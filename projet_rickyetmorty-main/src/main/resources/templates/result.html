@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Result</title>
+    <style>
+        body {
+            background-color: #b0b9b3;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #f5f5f5;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #0b1b7a;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #101291;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            color: #333;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Ricky et Morty</h1>
+    <div th:if="${searchResult}" class="list-container">
+        <h2>Search Result</h2>
+
+        <ul th:each="result : ${searchResult}">
+            <li th:text="'ID: ' + ${result.id}"></li>
+            <li th:text="'Name: ' + ${result.name}"></li>
+            <li th:text="'Status: ' + ${result.status}"></li>
+            <li th:text="'Species: ' + ${result.species}"></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

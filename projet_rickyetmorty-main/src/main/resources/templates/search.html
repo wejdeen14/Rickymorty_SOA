@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+
+    <style>
+        body {
+            background-image: url("https://de.web.img3.acsta.net/pictures/17/11/06/14/13/5164749.jpg?coixp=50&coiyp=47");
+            background-size: 100%; /* Ajustez cette valeur selon vos besoins */
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Assurez-vous que l'image reste fixe pendant le défilement */
+            /* Autres styles de fond */
+            background-position: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        #search{
+            padding: 10px;
+            border: 2px solid #000000;
+            border-radius: 9px;
+            background-color: #cbd5cf; /* Dark background */
+            color: #055926;
+            width: 400px;
+            box-sizing: border-box;
+            outline: none;
+
+        }
+        #button {
+            padding: 10px;
+            border: 2px solid #565454;
+            border-radius: 5px;
+            background-color: #0c0b0b; /* Purple background */
+            color: #e0efef;
+            cursor: pointer;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<form action="/search" method="post">
+
+    <input type="text" id="search" name="search" required placeholder="taper le nom de charactere">
+    <button id="button" type="submit">Search</button>
+</form>
+</body>
+</html>
