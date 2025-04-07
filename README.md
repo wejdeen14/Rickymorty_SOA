@@ -24,11 +24,7 @@ Ce projet a été développé dans un cadre d'apprentissage des architectures SO
 
 ## 📸 Aperçu
 
-### Page d'accueil
-![Page d'accueil](assets/homepage.png)
 
-### Détails du personnage
-![Détails](assets/details.png)
 > ## 🙋‍♀️ Développeuse
 
 **Wejden Ben Yaagoub**  
