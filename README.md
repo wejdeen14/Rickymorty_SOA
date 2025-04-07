@@ -23,9 +23,9 @@ Ce projet a été développé dans un cadre d'apprentissage des architectures SO
 - 🧪 Tests d’API via Postman
 
 ## 📸 Aperçu
-![Aperçu Rick et Morty]( /ricky.png)
+![Aperçu Rick et Morty](ricky.PNG)
 
-
+ricky.PNG
 > ## 🙋‍♀️ Développeuse
 
 **Wejden Ben Yaagoub**  
