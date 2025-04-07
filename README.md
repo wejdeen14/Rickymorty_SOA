@@ -24,7 +24,11 @@ Ce projet a été développé dans un cadre d'apprentissage des architectures SO
 
 ## 📸 Aperçu
 
-> *(Ajoute ici une capture d’écran de ton application si possible)*
+### Page d'accueil
+![Page d'accueil](assets/homepage.png)
+
+### Détails du personnage
+![Détails](assets/details.png)
 > ## 🙋‍♀️ Développeuse
 
 **Wejden Ben Yaagoub**  
