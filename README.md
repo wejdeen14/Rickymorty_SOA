@@ -25,7 +25,7 @@ Ce projet a été développé dans un cadre d'apprentissage des architectures SO
 ## 📸 Aperçu
 ![Aperçu Rick et Morty](ricky.PNG)
 
-ricky.PNG
+
 > ## 🙋‍♀️ Développeuse
 
 **Wejden Ben Yaagoub**  
